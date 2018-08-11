@@ -1,23 +1,15 @@
 [
     {
-        "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/catalyst_slide_down.xml",
-        "source": "/Users/synclairwang/.android/build-cache/3f23d7df2c5338730552db133963e5f30576b5f8/output/res/anim/catalyst_slide_down.xml"
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_slide_in_top.xml"
     },
     {
         "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/catalyst_push_up_out.xml",
         "source": "/Users/synclairwang/.android/build-cache/3f23d7df2c5338730552db133963e5f30576b5f8/output/res/anim/catalyst_push_up_out.xml"
     },
     {
-        "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/catalyst_slide_up.xml",
-        "source": "/Users/synclairwang/.android/build-cache/3f23d7df2c5338730552db133963e5f30576b5f8/output/res/anim/catalyst_slide_up.xml"
-    },
-    {
-        "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_fade_in.xml"
-    },
-    {
-        "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/catalyst_fade_out.xml",
-        "source": "/Users/synclairwang/.android/build-cache/3f23d7df2c5338730552db133963e5f30576b5f8/output/res/anim/catalyst_fade_out.xml"
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/tooltip_enter.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/tooltip_enter.xml"
     },
     {
         "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
@@ -32,6 +24,82 @@
         "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_slide_in_bottom.xml"
     },
     {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/catalyst_fade_in.xml",
+        "source": "/Users/synclairwang/.android/build-cache/cb03adfaa23ce3b4ba8699d2fc38ba09687efee8/output/res/anim/catalyst_fade_in.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/catalyst_slide_up.xml",
+        "source": "/Users/synclairwang/.android/build-cache/cb03adfaa23ce3b4ba8699d2fc38ba09687efee8/output/res/anim/catalyst_slide_up.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/tooltip_exit.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/tooltip_exit.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/catalyst_fade_out.xml",
+        "source": "/Users/synclairwang/.android/build-cache/cb03adfaa23ce3b4ba8699d2fc38ba09687efee8/output/res/anim/catalyst_fade_out.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/tooltip_enter.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/tooltip_enter.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/catalyst_slide_down.xml",
+        "source": "/Users/synclairwang/.android/build-cache/cb03adfaa23ce3b4ba8699d2fc38ba09687efee8/output/res/anim/catalyst_slide_down.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/catalyst_push_up_out.xml",
+        "source": "/Users/synclairwang/.android/build-cache/cb03adfaa23ce3b4ba8699d2fc38ba09687efee8/output/res/anim/catalyst_push_up_out.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/catalyst_slide_down.xml",
+        "source": "/Users/synclairwang/.android/build-cache/3f23d7df2c5338730552db133963e5f30576b5f8/output/res/anim/catalyst_slide_down.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/catalyst_slide_up.xml",
+        "source": "/Users/synclairwang/.android/build-cache/3f23d7df2c5338730552db133963e5f30576b5f8/output/res/anim/catalyst_slide_up.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/catalyst_push_up_in.xml",
+        "source": "/Users/synclairwang/.android/build-cache/cb03adfaa23ce3b4ba8699d2fc38ba09687efee8/output/res/anim/catalyst_push_up_in.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/catalyst_fade_out.xml",
+        "source": "/Users/synclairwang/.android/build-cache/3f23d7df2c5338730552db133963e5f30576b5f8/output/res/anim/catalyst_fade_out.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_fade_in.xml"
+    },
+    {
         "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
         "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
@@ -40,32 +108,36 @@
         "source": "/Users/synclairwang/.android/build-cache/3f23d7df2c5338730552db133963e5f30576b5f8/output/res/anim/catalyst_fade_in.xml"
     },
     {
-        "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_popup_enter.xml"
     },
     {
-        "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_slide_out_top.xml"
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/tooltip_exit.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/tooltip_exit.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/catalyst_push_up_in.xml",
         "source": "/Users/synclairwang/.android/build-cache/3f23d7df2c5338730552db133963e5f30576b5f8/output/res/anim/catalyst_push_up_in.xml"
     },
     {
-        "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/tooltip_exit.xml",
-        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/tooltip_exit.xml"
-    },
-    {
         "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
         "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_popup_exit.xml"
     },
     {
-        "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_popup_enter.xml"
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_slide_in_bottom.xml"
     },
     {
-        "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/tooltip_enter.xml",
-        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/tooltip_enter.xml"
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",

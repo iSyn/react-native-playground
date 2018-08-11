@@ -1,7 +1,15 @@
 [
     {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
         "source": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
+        "source": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",

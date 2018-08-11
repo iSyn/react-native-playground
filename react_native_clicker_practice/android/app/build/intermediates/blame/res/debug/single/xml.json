@@ -2,5 +2,9 @@
     {
         "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/Users/synclairwang/.android/build-cache/3f23d7df2c5338730552db133963e5f30576b5f8/output/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/synclairwang/.android/build-cache/cb03adfaa23ce3b4ba8699d2fc38ba09687efee8/output/res/xml/preferences.xml"
     }
 ]

@@ -2,5 +2,9 @@
     {
         "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
         "source": "/Users/synclairwang/.android/build-cache/ff990ece8726dd6a264f33029f0823dd75068de9/output/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/Users/synclairwang/.android/build-cache/ff990ece8726dd6a264f33029f0823dd75068de9/output/res/layout-v16/notification_template_custom_big.xml"
     }
 ]

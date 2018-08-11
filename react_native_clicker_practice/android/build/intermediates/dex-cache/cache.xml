@@ -3,21 +3,21 @@
 
     <item
         is-multidex="false"
-        jar="/Users/synclairwang/.android/build-cache/3f23d7df2c5338730552db133963e5f30576b5f8/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.3"
-        sha1="e7a850c25a7efbd533c496ab482c980fdafac58d">
-        <dex dex="/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/pre-dexed/debug/classes_9fc8541df8c6cd87ae36b37902e5a2669a591797.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/synclairwang/.android/build-cache/3f23d7df2c5338730552db133963e5f30576b5f8/output/jars/libs/infer-annotations-4.0.jar"
+        jar="/Users/synclairwang/.android/build-cache/cb03adfaa23ce3b4ba8699d2fc38ba09687efee8/output/jars/libs/infer-annotations-4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.3"
         sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_9db7bc5349e9ad84b044c540e8356f7bcc4a77f1.jar" />
+        <dex dex="/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_8e28aece18b3b16ff75a7a90dcf17fdac93c2085.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/synclairwang/.android/build-cache/cb03adfaa23ce3b4ba8699d2fc38ba09687efee8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="e7a850c25a7efbd533c496ab482c980fdafac58d">
+        <dex dex="/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/pre-dexed/debug/classes_51fc9faca317240b4031fad96cbf043778101806.jar" />
     </item>
 
 </items>

@@ -2,5 +2,9 @@
     {
         "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/layout-v26/abc_screen_toolbar.xml",
         "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/layout-v26/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/layout-v26/abc_screen_toolbar.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/layout-v26/abc_screen_toolbar.xml"
     }
 ]

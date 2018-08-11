@@ -1,4 +1,4 @@
-#Sat Aug 11 15:49:54 EDT 2018
-base.0=/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Sat Aug 11 17:42:01 EDT 2018
+base.0=/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.0=/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.0=/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

@@ -8,6 +8,22 @@
         "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/synclairwang/.android/build-cache/ff990ece8726dd6a264f33029f0823dd75068de9/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/synclairwang/Desktop/Practice/react-native-playground/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
         "merged": "/Users/synclairwang/Desktop/Practice/react_native_clicker_practice/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
         "source": "/Users/synclairwang/.android/build-cache/56e8017635817f044aad558698736768115d205e/output/res/drawable-v21/abc_btn_colored_material.xml"
     },
