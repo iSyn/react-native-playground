@@ -3,20 +3,12 @@ import { View, Text, TouchableOpacity, Animated } from 'react-native'
 
 class Button extends Component {
 
-    constructor(props) {
-        super(props)
-        this.animatedValue = new Animated.Value(0)
-    }
-
     state = {
-        buttonScale: new Animated.Value(1)
+        buttonPress: false
     }
 
     handlePress = () => {
-        Animated.timing(this.animatedValue, {
-            toValue: 1,
-            duration: 500
-        }).start()
+        this.setState({ buttonPress: true })
         this.props.addPoint()
     }
 
@@ -27,29 +19,7 @@ class Button extends Component {
         return (  
             <View style={styles.buttonContainerStyles}>
                 <TouchableOpacity onPress={this.handlePress} style={{ flex: 1 }}>
-                    <Animated.View 
-                        style={
-                            [
-                                styles.buttonStyles,
-                                {
-                                    transform: [
-                                        {
-                                            scaleX: this.animatedValue.interpolate({
-                                                inputRange: [0, 1, 2],
-                                                outputRange: [1, .5, 1]
-                                            })
-                                        }, {
-                                            scaleY: this.animatedValue.interpolate({
-                                                inputRange: [0, 1, 2],
-                                                outputRange: [1, .5, 1]
-                                            })
-                                        }
-                                    ]
-                                }
-                            
-                            ]
-                        }
-                    >
+                    <Animated.View style={ [ styles.buttonStyles ] }>
                         <Text style={styles.buttonTextStyles}>CLICK ME</Text>
                     </Animated.View>
                 </TouchableOpacity>
