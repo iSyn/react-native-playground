@@ -11,8 +11,8 @@ class App extends Component {
     state = {
         points: 0,
         pointsPerClick: 1,
-
         upgrades: [
+            false, // need to update store or no
             {
                 key: 'Bigger Finger',
                 desc: 'x2 PpC',
@@ -68,6 +68,7 @@ class App extends Component {
 
     render() { 
         return (  
+
             <View style={styles.containerStyles}> 
                 <Header />
                 <Text style={{ textAlign: 'center', fontSize: 30 }}>Points: {this.state.points}</Text>
@@ -86,4 +87,5 @@ const styles = {
     }
 }
  
-export default App;
+export default App
+// export default connect(mapStateToProps, { gainPoints })(App)
