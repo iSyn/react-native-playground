@@ -1,1 +1,0 @@
-export const GAIN_POINTS = 'GAIN_POINTS'

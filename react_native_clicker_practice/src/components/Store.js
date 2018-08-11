@@ -3,10 +3,6 @@ import { View, Text, FlatList, TouchableOpacity } from 'react-native'
 
 class Store extends Component {
 
-    componentWillUpdate = () => {
-        console.log('component will update firing')
-    }
-
     handleBuy = (upgrade) => {
         console.log('handle buy firing', upgrade)
         this.props.buyUpgrade(upgrade)
@@ -14,9 +10,10 @@ class Store extends Component {
 
     renderItem = (upgrade) => {
 
-        console.log('RE RENDERING item', upgrade)
+        console.log('renderItem firing')
 
         if (!upgrade.item.owned) {
+            console.log('ITEM ISNT OWNED')
             return (
                 <TouchableOpacity onPress={ () => {this.handleBuy(upgrade) }}>
                     <View style={ styles.itemContainer }>
@@ -30,18 +27,29 @@ class Store extends Component {
                     </View>
                 </TouchableOpacity>
             )
+        } else {
+            console.log('ITEM IS OWNED')
         }
     }
 
-    render() { 
+    
+    renderList = () => {
+        console.log('renderList firing')
+        return (
+            <FlatList
+                data={this.props.upgrades}
+                extraData={this.props}
+                renderItem={this.renderItem}
+            />
+        )
+    }
 
+    render() { 
+        console.log('re rendering', this.props.upgrades)
         return (  
             <View style={styles.storeContainer}>
                 <Text style={{ paddingTop: 15, paddingBottom: 15, fontSize: 20 }}>STORE</Text>
-                <FlatList
-                    data={this.props.upgrades}
-                    renderItem={this.renderItem}
-                />
+                {this.renderList()}
             </View>
         );
     }

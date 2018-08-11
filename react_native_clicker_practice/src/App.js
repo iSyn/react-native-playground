@@ -12,30 +12,34 @@ class App extends Component {
         points: 0,
         pointsPerClick: 1,
         upgrades: [
-            false, // need to update store or no
             {
                 key: 'Bigger Finger',
                 desc: 'x2 PpC',
+                multi: 2,
                 price: 5,
                 owned: false
             }, {
                 key: 'Even Bigger Finger',
                 desc: 'x3 PpC',
+                multi: 3,
                 price: 10,
                 owned: false
             }, {
                 key: 'The Biggest Finger',
                 desc: 'x5 PpC',
+                multi: 5,
                 price: 20,
                 owned: false
             }, {
                 key: 'Basic Autoclicker',
                 desc: '+1 to PpS',
+                multi: 2,
                 price: 15,
                 owned: false
             }, {
                 key: 'Advanced Autoclicker',
                 desc: '+5 to PpS',
+                multi: 2,
                 price: 20,
                 owned: false
             }
@@ -60,7 +64,10 @@ class App extends Component {
                 let points = this.state.points
                 points -= upgrade.item.price
 
-                this.setState({  upgrades, points })
+                let pointsPerClick = this.state.pointsPerClick
+                pointsPerClick *= upgrade.item.multi
+
+                this.setState({  upgrades, points, pointsPerClick })
 
             }
         }
@@ -88,4 +95,3 @@ const styles = {
 }
  
 export default App
-// export default connect(mapStateToProps, { gainPoints })(App)
