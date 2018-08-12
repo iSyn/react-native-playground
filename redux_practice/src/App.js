@@ -4,13 +4,16 @@ import { View, Text } from 'react-native';
 import { Provider } from 'react-redux'
 import { combineReducers, createStore } from 'redux'
 
+import productsReducer from './reducer/productsReducer'
+import userReducer from './reducer/userReducer'
+
 class App extends Component {
 
     render() { 
 
         const allReducers = combineReducers({
-            products: this.productsReducer,
-            user: this.userReducer
+            products: productsReducer,
+            user: userReducer
         })
 
         const store = createStore(
