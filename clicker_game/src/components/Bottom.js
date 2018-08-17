@@ -1,25 +1,22 @@
 import React, { Component } from 'react';
 import { View, Text, TouchableWithoutFeedback } from 'react-native'
+import { connect } from 'react-redux'
+
+import { toggleStore } from '../actions' 
 
 class Bottom extends Component {
 
-    handlePress() {
-        console.log('pressed')
+    handleStorePress() {
+        this.props.toggleStore()
     }
 
     render() { 
         return (  
             <View style={ styles.containerStyles }>
 
-                <TouchableWithoutFeedback onPress={this.handlePress}>
+                <TouchableWithoutFeedback onPress={this.handleStorePress.bind(this)}>
                     <View style={ [styles.optionStyles, { borderRightWidth: 2 }] }>
                         <Text style={ styles.optionTextStyles }>Store</Text>
-                    </View>
-                </TouchableWithoutFeedback>
-
-                <TouchableWithoutFeedback onPress={this.handlePress}>
-                    <View style={ styles.optionStyles }>
-                        <Text style={ styles.optionTextStyles }>Settings</Text>
                     </View>
                 </TouchableWithoutFeedback>
 
@@ -31,7 +28,6 @@ class Bottom extends Component {
 const styles = {
     containerStyles: {
         flexDirection: 'row',
-        // justifyContent: 'space-around',
         borderTopWidth: 2,
         borderColor: '#222',
         marginTop: 10
@@ -46,5 +42,10 @@ const styles = {
         textAlign: 'center'
     }
 }
+
+const mapStateToProps = state => {
+    const { store } = state
+    return { store }
+}
  
-export default Bottom;
+export default connect(mapStateToProps, { toggleStore })(Bottom);

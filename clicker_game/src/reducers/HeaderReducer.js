@@ -1,10 +1,11 @@
 import {
     GAIN_POINT,
-    GAIN_ENERGY
+    GAIN_ENERGY,
+    SPEND_POINTS
 } from '../types'
 
 const INITIAL_STATE = {
-    points: 0,
+    points: 500,
     pointsPerClick: 1,
     currentEnergy: 100,
     maxEnergy: 100
@@ -29,6 +30,11 @@ export default (state = INITIAL_STATE, action) => {
                     ...state,
                     currentEnergy: state.currentEnergy + 1
                 }
+            }
+        case SPEND_POINTS:
+            return {
+                ...state,
+                points: state.points - action.payload
             }
         default:
             return state
