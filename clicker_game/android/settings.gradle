@@ -1,0 +1,3 @@
+rootProject.name = 'clicker_game'
+
+include ':app'
