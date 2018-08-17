@@ -1,40 +1,31 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 
-import { Provider } from 'react-redux'
+import { Provider, connect } from 'react-redux'
 import { combineReducers, createStore } from 'redux'
 
-import productsReducer from './reducer/productsReducer'
-import userReducer from './reducer/userReducer'
+import { nameReducer } from './reducer' 
+
+import Header from './components/Header'
+import Button from './components/Button'
+import InputBox from './components/InputBox'
 
 class App extends Component {
 
     render() { 
 
-        const allReducers = combineReducers({
-            products: productsReducer,
-            user: userReducer
-        })
-
-        const store = createStore(
-            allReducers,
-            {
-                products: [{ name: 'Android' }],
-                user: 'Synclair',
-            },
-            window.devToolsExtension && window.devToolsExtension()
-        )
-
-        console.log(store.getState())
+        const store = createStore(nameReducer)
 
         return (
             <Provider store={store}>
                 <View>
-                    <Text>Sad Bois</Text>
+                    <Header />
+                    <InputBox />
+                    <Button />
                 </View>
-            </Provider>  
+            </Provider>
         );
     }
 }
- 
+
 export default App;
