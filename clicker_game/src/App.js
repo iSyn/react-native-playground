@@ -8,6 +8,7 @@ import reducers from './reducers'
 import Header from './components/Header'
 import Click from './components/Click'
 import Bottom from './components/Bottom'
+import StoreModal from './components/StoreModal'
 
 class App extends Component {
 
@@ -17,10 +18,14 @@ class App extends Component {
 
         return (  
             <Provider store={store}>
-                <View style={{ flex: 1 }}>
+                <View style={{ flex: 1, position: 'relative' }}>
+
                     <Header />
                     <Click />
                     <Bottom />
+
+                    <StoreModal />
+
                 </View>
             </Provider>
         );

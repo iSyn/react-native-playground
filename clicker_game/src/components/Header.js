@@ -38,7 +38,6 @@ const styles = {
 }
 
 const mapStateToProps = state => {
-    console.log('mapstatetopropsstate:', state)
     return state
 }
  

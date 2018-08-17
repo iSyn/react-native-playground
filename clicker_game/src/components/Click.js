@@ -12,7 +12,7 @@ class Click extends Component {
 
     render() { 
         return (  
-            <TouchableWithoutFeedback onPress={this.handlePress.bind(this)}>
+            <TouchableWithoutFeedback onPress={this.handlePress.bind(this)} style={{ zIndex: 0 }}>
                 <View style={styles.buttonStyles}>
                     <Text style={{ fontSize: 40, color: 'white' }}>Tap Me</Text>
                 </View>
@@ -28,7 +28,6 @@ const styles = {
         alignItems: 'center',
         marginLeft: 10,
         marginRight: 10,
-        flex: 1,
     }
 }
  
