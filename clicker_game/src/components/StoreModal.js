@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, FlatList, TouchableWithoutFeedback, Animated } from 'react-native'
+import { View, Text, FlatList, TouchableWithoutFeedback, Animated, Easing } from 'react-native'
 import { connect } from 'react-redux'
 
 import { toggleStore } from '../actions'
@@ -8,17 +8,27 @@ import UpgradeItem from './UpgradeItem'
 
 class StoreModal extends Component {
 
+    constructor(props) {
+        super(props)
+        this.showModal = this.showModal.bind(this)
+    }
+
     state = {
-        animated: new Animated.Value(0),
-        animationPlayed: false
+        storeVisible: false,
+
+        animateUp: new Animated.Value(0),
+        animateUpPlayed: false,
+
+        animateDown: new Animated.Value(0),
+        animateDownPlayed: false
     }
 
     closeModal() {
-        this.props.toggleStore()
+        this.animateDown()
     }
 
-    handlePress(upgrade) {
-        console.log('pressed', upgrade)
+    showModal() {
+        this.animateUp()
     }
 
     renderItem(upgrade) {
@@ -27,30 +37,68 @@ class StoreModal extends Component {
         )
     }
 
-    startAnimation() {
-        Animated.timing( this.state.animated, {
+    animateUp() {
+        Animated.timing( this.state.animateUp, {
             toValue: 1,
-            duration: 100
-        }).start(this.setState({ animationPlayed: true }))
+            duration: 200,
+            useNativeDriver: true,
+            easing: Easing.linear
+        }).start(() => {
+            this.setState({ 
+                storeVisible: true,
+                animateUpPlayed: true
+            })
+        })
+    }
+
+    animateDown() {
+        Animated.timing( this.state.animateDown, {
+            toValue: 1,
+            duration: 200,
+            useNativeDriver: true,
+            easing: Easing.linear
+        }).start(() => {
+            this.setState({ 
+                storeVisible: false,
+                animateDownPlayed: false,
+                animateUpPlayed: false,
+                animateUp: new Animated.Value(0),
+                animateDown: new Animated.Value(0)
+            })
+            this.props.toggleStore()
+        })
     }
 
     renderStore() {
+
+        console.log('render store firing')
 
         let showModal = this.props.store.showModal
 
         if (showModal) {
 
-            if (!this.state.animationPlayed) {
-                this.startAnimation()
+            if (!this.state.animateUpPlayed && !this.state.storeVisible) {
+                console.log('FUCKING FIRING')
+                this.showModal()
             }
 
+
             return (
-                <Animated.View style={[styles.storeModalContainer, {
+                <Animated.View style={[styles.storeModalContainer, !this.state.storeVisible ? {
                     transform: [
-                        {
-                            translateY: this.state.animated.interpolate({
+                        { 
+                            translateY: this.state.animateUp.interpolate({
                                 inputRange: [0, 1],
-                                outputRange: [5000, 0]
+                                outputRange: [800, 0]
+                            })
+                        }
+                    ]
+                } : {
+                    transform: [
+                        { 
+                            translateY: this.state.animateDown.interpolate({
+                                inputRange: [0, 1],
+                                outputRange: [0, 800]
                             })
                         }
                     ]

@@ -14,7 +14,7 @@ class Click extends Component {
         return (  
             <TouchableWithoutFeedback onPress={this.handlePress.bind(this)}>
                 <View style={styles.buttonStyles}>
-                    <Text style={{ fontSize: 40, color: 'white' }}>Tap Me</Text>
+                    <Text style={{ fontSize: 40, color: 'white' }}>Tap Me!</Text>
                 </View>
             </TouchableWithoutFeedback>
         );

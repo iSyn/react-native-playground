@@ -15,7 +15,7 @@ class Bottom extends Component {
             <View style={ styles.containerStyles }>
 
                 <TouchableWithoutFeedback onPress={this.handleStorePress.bind(this)}>
-                    <View style={ [styles.optionStyles, { borderRightWidth: 2 }] }>
+                    <View style={ styles.optionStyles }>
                         <Text style={ styles.optionTextStyles }>Store</Text>
                     </View>
                 </TouchableWithoutFeedback>
