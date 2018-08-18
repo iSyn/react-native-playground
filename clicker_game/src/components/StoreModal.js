@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, FlatList, TouchableWithoutFeedback, TouchableOpacity } from 'react-native'
+import { View, Text, FlatList, TouchableWithoutFeedback, Animated } from 'react-native'
 import { connect } from 'react-redux'
 
 import { toggleStore } from '../actions'
@@ -7,6 +7,11 @@ import { toggleStore } from '../actions'
 import UpgradeItem from './UpgradeItem'
 
 class StoreModal extends Component {
+
+    state = {
+        animated: new Animated.Value(0),
+        animationPlayed: false
+    }
 
     closeModal() {
         this.props.toggleStore()
@@ -22,14 +27,34 @@ class StoreModal extends Component {
         )
     }
 
+    startAnimation() {
+        Animated.timing( this.state.animated, {
+            toValue: 1,
+            duration: 100
+        }).start(this.setState({ animationPlayed: true }))
+    }
 
     renderStore() {
 
         let showModal = this.props.store.showModal
 
         if (showModal) {
+
+            if (!this.state.animationPlayed) {
+                this.startAnimation()
+            }
+
             return (
-                <View style={styles.storeModalContainer}>
+                <Animated.View style={[styles.storeModalContainer, {
+                    transform: [
+                        {
+                            translateY: this.state.animated.interpolate({
+                                inputRange: [0, 1],
+                                outputRange: [5000, 0]
+                            })
+                        }
+                    ]
+                }]}>
                     <View style={styles.storeModalHeader}>
                         <Text style={styles.storeHeaderText}>STORE</Text>
                         <TouchableWithoutFeedback onPress={this.closeModal.bind(this)}>
@@ -44,7 +69,7 @@ class StoreModal extends Component {
                         renderItem={this.renderItem}
                     />
 
-                </View>
+                </Animated.View>
             )
         } else {
             return null
